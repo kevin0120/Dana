@@ -1,0 +1,10 @@
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.dll
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.pdb
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.xml
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Source\Truck_RFID_TCP_Reader\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

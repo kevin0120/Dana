@@ -1,0 +1,11 @@
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Release\Echo_Sn_Status.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Release\Echo_Sn_Status.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Release\Dapper.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Release\Dapper.xml
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.xml
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Release\Echo_Sn_Status.csproj.CoreCompileInputs.cache
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Release\Echo_Sn_Status.csproj.CopyComplete
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Release\Echo_Sn_Status.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Release\Echo_Sn_Status.pdb

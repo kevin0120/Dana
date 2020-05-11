@@ -1,0 +1,117 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>FAQ</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="faq" /><meta name="Microsoft.Help.Id" content="caae5e98-a5bb-490e-b751-7d37767104ba" /><meta name="Description" content="Problems I encountered and how I solved it." /><meta name="Microsoft.Help.ContentType" content="How To" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Plugin documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="0914e9ea-9584-4bb0-a703-4a6a191745b8.htm" title="Plugin documentation" tocid="roottoc">Plugin documentation</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="0914e9ea-9584-4bb0-a703-4a6a191745b8.htm" title="Welcome to the Plugin Interface Documentation" tocid="0914e9ea-9584-4bb0-a703-4a6a191745b8">Welcome to the Plugin Interface Documentation</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="483a58b1-2899-48bf-8d36-3319e9655eb7.htm" title="Version History" tocid="483a58b1-2899-48bf-8d36-3319e9655eb7">Version History</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="f30628f8-aa35-47d2-b511-c921886eb73e.htm" title="How to create a plugin" tocid="f30628f8-aa35-47d2-b511-c921886eb73e">How to create a plugin</a></div><div class="toclevel1 current" data-toclevel="1"><a data-tochassubtree="false" href="caae5e98-a5bb-490e-b751-7d37767104ba.htm" title="FAQ" tocid="caae5e98-a5bb-490e-b751-7d37767104ba">FAQ</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="0fc05e4b-ee66-2d46-1ee5-194510300de9.htm" title="Desoutter.ProcessControl.Plugin.v1.Interface" tocid="0fc05e4b-ee66-2d46-1ee5-194510300de9">Desoutter.ProcessControl.Plugin.v1.Interface</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="8cff065b-ee39-97a1-728b-d5d0ef5be5a7.htm" title="Desoutter.ProcessControl.Plugin.v2.Interface" tocid="8cff065b-ee39-97a1-728b-d5d0ef5be5a7">Desoutter.ProcessControl.Plugin.v2.Interface</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>FAQ</h1></td><td class="logoColumn"><img src="../icons/Desoutter.png" /></td></tr></table><span class="introStyle"></span> <div class="introduction"><p>Problems I encountered and how I solved it.</p></div><h3 class="procedureSubHeading">FAQ</h3><div class="subSection"><ul><li><p><em>Q: Why Infinity display an error message about license although my plugin is signed?</em></p><p>A: This message is a consequence of a rebuild. The license allow only one version of your plugin. If you make a change the plugin must be resigned.</p></li><li><p><em>Q: My plugin can not access a remote directory. Why?</em></p><p>A: The plugin seems to not have access rights. You will need to have a user access to the remote directory. This class will help you:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACAAAFAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACAAAFAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACAAAFAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACAAAFAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.ComponentModel;
+<span class="highlight-keyword">using</span> System.Net;
+<span class="highlight-keyword">using</span> System.Runtime.InteropServices;
+
+<span class="highlight-keyword">namespace</span> GenericLookupPlugin
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> NetworkConnection : IDisposable
+  {
+    <span class="highlight-keyword">string</span> _networkName;
+
+    <span class="highlight-keyword">public</span> NetworkConnection(<span class="highlight-keyword">string</span> networkName, NetworkCredential credentials)
+    {
+      _networkName = networkName;
+
+      <span class="highlight-keyword">var</span> netResource = <span class="highlight-keyword">new</span> NetResource()
+      {
+        Scope = ResourceScope.GlobalNetwork,
+        ResourceType = ResourceType.Disk,
+        DisplayType = ResourceDisplaytype.Share,
+        RemoteName = networkName
+      };
+
+      <span class="highlight-keyword">var</span> userName = <span class="highlight-keyword">string</span>.IsNullOrEmpty(credentials.Domain) ? credentials.UserName : <span class="highlight-keyword">string</span>.Format(<span class="highlight-literal">@"{0}\{1}"</span>, credentials.Domain, credentials.UserName);
+
+      <span class="highlight-keyword">var</span> result = WNetAddConnection2(netResource, credentials.Password, userName, <span class="highlight-number">0</span>);
+
+      <span class="highlight-keyword">if</span> (result != <span class="highlight-number">0</span>)
+      {
+        <span class="highlight-keyword">throw</span> <span class="highlight-keyword">new</span> Win32Exception(result, <span class="highlight-literal">"Error connecting to remote share"</span>);
+      }
+    }
+
+    ~NetworkConnection()
+    {
+      Dispose(<span class="highlight-keyword">false</span>);
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> Dispose()
+    {
+      Dispose(<span class="highlight-keyword">true</span>);
+      GC.SuppressFinalize(<span class="highlight-keyword">this</span>);
+    }
+
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">virtual</span> <span class="highlight-keyword">void</span> Dispose(<span class="highlight-keyword">bool</span> disposing)
+    {
+      WNetCancelConnection2(_networkName, <span class="highlight-number">0</span>, <span class="highlight-keyword">true</span>);
+    }
+
+    [DllImport(<span class="highlight-literal">"mpr.dll"</span>)]
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">extern</span> <span class="highlight-keyword">int</span> WNetAddConnection2(NetResource netResource, <span class="highlight-keyword">string</span> password, <span class="highlight-keyword">string</span> username, <span class="highlight-keyword">int</span> flags);
+
+    [DllImport(<span class="highlight-literal">"mpr.dll"</span>)]
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">extern</span> <span class="highlight-keyword">int</span> WNetCancelConnection2(<span class="highlight-keyword">string</span> name, <span class="highlight-keyword">int</span> flags, <span class="highlight-keyword">bool</span> force);
+  }
+
+  [StructLayout(LayoutKind.Sequential)]
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> NetResource
+  {
+    <span class="highlight-keyword">public</span> ResourceScope Scope;
+    <span class="highlight-keyword">public</span> ResourceType ResourceType;
+    <span class="highlight-keyword">public</span> ResourceDisplaytype DisplayType;
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">int</span> Usage;
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> LocalName;
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> RemoteName;
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Comment;
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Provider;
+  }
+
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">enum</span> ResourceScope : <span class="highlight-keyword">int</span>
+  {
+    Connected = <span class="highlight-number">1</span>,
+    GlobalNetwork,
+    Remembered,
+    Recent,
+    Context
+  };
+
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">enum</span> ResourceType : <span class="highlight-keyword">int</span>
+  {
+    Any = <span class="highlight-number">0</span>,
+    Disk = <span class="highlight-number">1</span>,
+    Print = <span class="highlight-number">2</span>,
+    Reserved = <span class="highlight-number">8</span>,
+  }
+
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">enum</span> ResourceDisplaytype : <span class="highlight-keyword">int</span>
+  {
+    Generic = <span class="highlight-number">0x0</span>,
+    Domain = <span class="highlight-number">0x01</span>,
+    Server = <span class="highlight-number">0x02</span>,
+    Share = <span class="highlight-number">0x03</span>,
+    File = <span class="highlight-number">0x04</span>,
+    Group = <span class="highlight-number">0x05</span>,
+    Network = <span class="highlight-number">0x06</span>,
+    Root = <span class="highlight-number">0x07</span>,
+    Shareadmin = <span class="highlight-number">0x08</span>,
+    Directory = <span class="highlight-number">0x09</span>,
+    Tree = <span class="highlight-number">0x0a</span>,
+    Ndscontainer = <span class="highlight-number">0x0b</span>
+  }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACAAAFAAA");</script><p>And how to use it:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAAAFAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAAAFAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAAAFAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAAAFAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">string</span> strResult;
+<span class="highlight-comment">// User and Password are set in my Parameters class.</span>
+<span class="highlight-keyword">if</span> (!<span class="highlight-keyword">string</span>.IsNullOrWhiteSpace(param.User) &amp;&amp; !<span class="highlight-keyword">string</span>.IsNullOrWhiteSpace(param.Password))
+{
+  <span class="highlight-keyword">var</span> credential = <span class="highlight-keyword">new</span> NetworkCredential(param.User, param.Password);
+  <span class="highlight-keyword">using</span> (<span class="highlight-keyword">new</span> NetworkConnection(myPath, credential))
+  {
+    <span class="highlight-comment">// Do the job with some credentials.</span>
+    strResult = Read();
+  }
+}
+<span class="highlight-keyword">else</span>
+{
+  <span class="highlight-comment">// Do the job without any credentials.</span>
+  strResult = Read();
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAAAFAAA");</script></li></ul></div></div></div><div id="pageFooter" class="pageFooter" /></body></html>

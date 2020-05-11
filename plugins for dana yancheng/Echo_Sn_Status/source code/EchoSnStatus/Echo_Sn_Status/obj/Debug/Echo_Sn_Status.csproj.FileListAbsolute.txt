@@ -1,0 +1,17 @@
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\bin\Debug\Dapper.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\bin\Debug\Dapper.xml
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\obj\Debug\Echo_Sn_Status.csproj.CoreCompileInputs.cache
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\obj\Debug\Echo_Sn_Status.csproj.CopyComplete
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\bin\Debug\Echo_Sn_Status.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\bin\Debug\Echo_Sn_Status.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\obj\Debug\Echo_Sn_Status.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\EchoSnStatus\obj\Debug\Echo_Sn_Status.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Debug\Echo_Sn_Status.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Debug\Echo_Sn_Status.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Debug\Dapper.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\bin\Debug\Dapper.xml
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Debug\Echo_Sn_Status.csproj.CoreCompileInputs.cache
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Debug\Echo_Sn_Status.csproj.CopyComplete
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Debug\Echo_Sn_Status.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Debug\Echo_Sn_Status.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\EchoSnStatus\Echo_Sn_Status\obj\Debug\Echo_Sn_Status.csprojAssemblyReference.cache

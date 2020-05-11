@@ -1,0 +1,26 @@
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.csproj.CoreCompileInputs.cache
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.pdb
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.xml
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.csproj.CopyComplete
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.dll
+C:\Source Code Backup\Plugin\UC1561 Dana 流体\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.pdb
+C:\Users\cnhhl\Desktop\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.dll
+C:\Users\cnhhl\Desktop\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.pdb
+C:\Users\cnhhl\Desktop\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.csproj.CoreCompileInputs.cache
+C:\Users\cnhhl\Desktop\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.csproj.CopyComplete
+C:\Users\cnhhl\Desktop\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.dll
+C:\Users\cnhhl\Desktop\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Pivotware\Pro\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Pivotware\Pro\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Pivotware\Pro\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Pivotware\Pro\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Pivotware\Pro\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.csproj.CopyComplete
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Release\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.csproj.CopyComplete
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Release\Truck_RFID_TCP_Reader.csprojAssemblyReference.cache

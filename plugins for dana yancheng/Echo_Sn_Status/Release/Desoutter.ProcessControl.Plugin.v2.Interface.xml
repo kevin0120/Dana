@@ -1,0 +1,864 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Desoutter.ProcessControl.Plugin.v2.Interface</name>
+    </assembly>
+    <members>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.AttributeParameter.PluginAttribute">
+            <summary>
+            Attribute to indicate which class is the plugin entry point.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.AttributeParameter.PluginParameterAttribute">
+            <summary>
+            Attribute to indicate a class element is a parameter.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.AttributeParameter.PluginParameterAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="name"></param>
+            <param name="toolTip"></param>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.AttributeParameter.PluginParameterAttribute.Name">
+            <summary>
+            Name displayed in Fusion.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.AttributeParameter.PluginParameterAttribute.ToolTip">
+            <summary>
+            Tool tip displayed in Fusion.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.AttributeParameter.PluginParametersAttribute">
+            <summary>
+            Attribute to indicate the class is the model of input parameters
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.IConfiguration">
+            <summary>
+            Provides configuration elements.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IConfiguration.GetAssetsAsync">
+            <summary>
+            Returns list of assets used by the station.
+            </summary>
+            <remarks>Must be combined with await</remarks>
+            <returns>List of assets</returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IConfiguration.GetStepsAsync(System.Collections.Generic.List{Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType})">
+            <summary>
+            Returns some step configuration elements.
+            </summary>
+            <remarks>Must be combined with await</remarks>
+            <param name="types">Types wanted</param>
+            <returns>List of steps</returns>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.IDisplayScreenAlert">
+            <summary>
+            Displays messages using default Infinity system.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IDisplayScreenAlert.Error(System.String,System.Int32)">
+            <summary>
+            Displays an error. Can be done only if the plugin is the current step.
+            </summary>
+            <param name="message">A message</param>
+            <param name="duration">Time in seconds during message is displayed</param>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IDisplayScreenAlert.Info(System.String,System.Int32)">
+            <summary>
+            Displays an information. Can be done only if the plugin is the current step.
+            </summary>
+            <param name="message">A message</param>
+            <param name="duration">Time in seconds during message is displayed</param>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IDisplayScreenAlert.Warning(System.String,System.Int32)">
+            <summary>
+            Displays a warning. Can be done only if the plugin is the current step.
+            </summary>
+            <param name="message">A message</param>
+            <param name="duration">Time in seconds during message is displayed</param>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.IExternalInterface">
+            <summary>
+            Provides all possible exchanges with outside (user, machines...)
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IExternalInterface.SetOutputState(System.String,System.Int32,System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            Modify IO output. Can be done only if the plugin is the current step.
+            </summary>
+            <param name="ioDeviceAddress">Ip address of the device. Empty string for Nano, ip address for others</param>
+            <param name="entryNumber">Socket number</param>
+            <param name="state">Status</param>
+            <param name="duration">Time while state is applied</param>
+            <param name="flash">true to flash each duration</param>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IExternalInterface.GetInputOutputSourcesAsync(System.String)">
+            <summary>
+            Returns IO statuses of an IO module.
+            </summary>
+            <remarks>Must be combined with await</remarks>
+            <param name="ioDeviceAddress">Ip address of the device. Empty string for Nano, ip address for others</param>
+            <returns></returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IExternalInterface.DisplayKeyboardAsync(System.String,System.String)">
+            <summary>
+            Displays Infinity keyboard and returns value entered by user.
+            Null is returned if user cancel input or the keyboard can not be displayed.
+            Can be done only if the plugin is the current step.
+            </summary>
+            <remarks>Must be combined with await</remarks>
+            <param name="title">Sentence to display on Infinity screen.</param>
+            <param name="defaultValue">Default value to pre-insert for user.</param>
+            <returns>Value entered by the user</returns>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.IInfinityService">
+            <summary>
+            Services provided by Infinity. This is your entry point for all services provided by the API.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IInfinityService.ScreenAlert">
+            <summary>
+            Groups all screen alert possibilities.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IInfinityService.Log">
+            <summary>
+            Groups all possible logs.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IInfinityService.Configuration">
+            <summary>
+            Groups all configuration elements.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IInfinityService.Production">
+            <summary>
+            Groups all production elements.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IInfinityService.ExternalInterface">
+            <summary>
+            Groups all exchanges with outside.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.IPluginLog">
+            <summary>
+            Logs data in Infinity log system.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPluginLog.Error(System.String)">
+            <summary>
+            Logs an error in Infinity log system.
+            </summary>
+            <param name="message">A message</param>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPluginLog.Info(System.String)">
+            <summary>
+            Logs an info in Infinity log system.
+            </summary>
+            <param name="message">A message</param>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.IProduction">
+            <summary>
+            Provides Production elements.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IProduction.GetPreviousResultsAsync(System.Collections.Generic.List{Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType})">
+            <summary>
+            Returns results of previous selected steps. Can be done only if the plugin is the current step.
+            </summary>
+            <remarks>Must be combined with await</remarks>
+            <param name="types">Types wanted</param>
+            <returns>List of previous results</returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IProduction.GetProductSpecificationAsync">
+            <summary>
+            Returns UID and SEQ and DATA.
+            </summary>
+            <remarks>Must be combined with await</remarks>
+            <returns>UID and SEQ and DATA</returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IProduction.GetLoggedUsersAsync">
+            <summary>
+            Returns list of logged users (supervisors and operators).
+            </summary>
+            <remarks>Must be combined with await</remarks>
+            <returns>All logged users</returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IProduction.InsertTraceabilityLine(System.Boolean,System.String)">
+            <summary>
+            Adds a line in traceability report. Can be done only if the plugin is the current step.
+            </summary>
+            <param name="isPassed"></param>
+            <param name="message"></param>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Configuration.Asset">
+            <summary>
+            Describes an asset used into Infinity.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Configuration.Asset.Name">
+            <summary>
+            Name of the asset.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Configuration.Asset.Id">
+            <summary>
+            Id of the asset.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Configuration.Step.Step">
+            <summary>
+            Configuration of a step
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Configuration.Step.Step.Name">
+            <summary>
+            Name of the step.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Configuration.Step.Step.Id">
+            <summary>
+            Id of the step.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.InputOutputData">
+            <summary>
+            Represents status of an IO device.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.InputOutputData.InputSources">
+            <summary>
+            List of inputs.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.InputOutputData.OutputSources">
+            <summary>
+            List of outputs.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.InputOutputSource">
+            <summary>
+            Status of an IO.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.InputOutputSource.EntryNumber">
+            <summary>
+            IO's id.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.InputOutputSource.State">
+            <summary>
+            Status of the IO. True for ON.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.PreviousResult">
+            <summary>
+            Represents a result of a previous step.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.PreviousResult.Id">
+            <summary>
+            Id of the step.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.PreviousResult.IsPassed">
+            <summary>
+            Status of the step.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.PreviousResult.StartTime">
+            <summary>
+            Date when the step execution starts.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.PreviousResult.EndTime">
+            <summary>
+            Date when the step execution ends.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.PreviousResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <summary>
+            Design Pattern. Visitor access.
+            </summary>
+            <param name="visitor"></param>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor">
+            <summary>
+            Interface of a visitor to parse PreviousRessult
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.GenericPreviousResult`1">
+            <inheritdoc />
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.GenericPreviousResult`1.SubSteps">
+            <summary>
+            Set of sub statuses.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ArithmeticResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ArithmeticResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.BuilderResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.BuilderResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.CameraMobileResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.CameraMobileResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ComparisonResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ComparisonResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ConfirmationResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ConfirmationResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DatabaseQueryResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DatabaseQueryResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DataInResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DataInResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DataOutResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DataOutResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DecisionResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DecisionResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DigitalInResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DigitalInResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DigitalOutResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DigitalOutResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DigitalPickingResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.DigitalPickingResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.EndResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.EndResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.JumpResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.JumpResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.MonitoringResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.MonitoringResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.NumberFunctionResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.NumberFunctionResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.PluginResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.PluginResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.PrinterResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.PrinterResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.SelectionResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.SelectionResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.TextFunctionResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.TextFunctionResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ToolResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.ToolResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.TrackerResult">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Step.TrackerResult.Visit(Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.IPreviousResultVisitor)">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.SpindleResult">
+            <summary>
+            Result of a spindle.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.SpindleResult.Id">
+            <summary>
+            Id of the spindle
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.SpindleResult.Angle">
+            <summary>
+            Angle values.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.SpindleResult.Torque">
+            <summary>
+            Torque values
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.Value">
+            <summary>
+            Min/max and result value reached by a spindle
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.Value.Min">
+            <summary>
+            Minimum value parameterized with the pset.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.Value.Max">
+            <summary>
+            Maximum value parameterized with the pset.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.Value.Result">
+            <summary>
+            Reached value with the spindle.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.Value.Target">
+            <summary>
+            Value attempted parameterized with the pset.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.BatchResult">
+            <summary>
+            Intermediate result send by the plugin improve traceability.
+            </summary>
+            <see cref="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepResult"/>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.BatchResult.IsPassed">
+            <summary>
+            Indicates the status of the step. True to "it's OK'.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.BatchResult.BatchCount">
+            <summary>
+            Batches realized.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.BatchResult.BatchTotal">
+            <summary>
+            Total batch.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.BatchResult.EntryTime">
+            <summary>
+            Date when the batch has been done.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.DataBatchResult">
+            <inheritdoc />
+            <summary>
+            BatchResult with a Data field
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.DataBatchResult.Data">
+            <summary>
+            Data to be stored. Will be displayed in reports.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.ToolBatchResult">
+            <inheritdoc />
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.Result.Batch.ToolBatchResult.SpindleResults">
+            <summary>
+            Results of all spindles of the tool. You often have only one spindle.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.ProductSpecification">
+            <summary>
+            Set of parameters specific to the current cycle.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.ProductSpecification.UID">
+            <summary>
+            UID of the cycle.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.ProductSpecification.SEQ">
+            <summary>
+            SEQ of the cycle.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.Production.ProductSpecification.Data">
+            <summary>
+            Data of the cycle.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepResult">
+            <summary>
+            Result returned by the plugin to indicate the end of the step
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepResult.Data">
+            <summary>
+            Data to be stored. Can be used by other steps.
+            Will be displayed in reports.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepResult.IsPassed">
+            <summary>
+            Indicates the status of the step. True to "it's OK'.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType">
+            <summary>
+            Available types.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.All">
+            <summary>
+            All step types.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.None">
+            <summary>
+            No step type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.CameraMobile">
+            <summary>
+            ActionCamera type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Confirmation">
+            <summary>
+            ActionConfirmation type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.DatabaseQuery">
+            <summary>
+            ActionDatabaseQuery type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.DataIn">
+            <summary>
+            ActionDataIn type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.DataOut">
+            <summary>
+            ActionDataOut type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.DigitalIn">
+            <summary>
+            ActionDigitalIn type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.DigitalOut">
+            <summary>
+            ActionDigitalOut type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.DigitalPicking">
+            <summary>
+            ActionDigitalPicking type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Printer">
+            <summary>
+            ActionPrinter type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Selection">
+            <summary>
+            ActionSelection type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Tool">
+            <summary>
+            ActionTool type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Arithmetic">
+            <summary>
+            LogicArithmetic type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Comparison">
+            <summary>
+            LogicComparison type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Decision">
+            <summary>
+            LogicDecision type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.TextFunction">
+            <summary>
+            LogicTextFunction type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Jump">
+            <summary>
+            LogicJump type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.End">
+            <summary>
+            LogicEnd type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Builder">
+            <summary>
+            ModuleBuilder type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Tracker">
+            <summary>
+            ModuleTracker type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Plugin">
+            <summary>
+            CustomPlugin type.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.NumberFunction">
+            <summary>
+            LogicNumberFunction type
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Model.StepType.Monitoring">
+            <summary>
+            ActionMonitoring type
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.User.Operator">
+            <inheritdoc />
+            <summary>
+            Represents an operator.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.User.Supervisor">
+            <inheritdoc />
+            <summary>
+            Represents a supervisor.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Model.User.User">
+            <summary>
+            Represents a user logged into Infinity.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.User.User.Name">
+            <summary>
+            Name of the user.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.Model.User.User.Id">
+            <summary>
+            Id of the user.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin">
+            <summary>
+            Interface for user-defined plugin
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.InfinityService">
+            <summary>
+            Access point to Infinity capabilities.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.WorkingDirectory">
+            <summary>
+            Directory in which files will be read/written by default.
+            This directory is never deleted.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.ExecutableDirectory">
+            <summary>
+            Directory where the plugin .dll is located.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.CreateControl">
+            <summary>
+            Creates plugin's visual element; called only ones in plugin's lifetime.
+            </summary>
+            <returns>WPF framework element of the plugin</returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.HasToCreateControl">
+            <summary>
+            Indicates if the plugin has an HMI.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.CycleStart">
+            <summary>
+            Signals a new cycle. Could be considered as an Initialize method.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.ExecuteStep(System.Object)">
+            <summary>
+            Executes the core code of the plugin step
+            </summary>
+            <param name="parameters"></param>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.ProgramWillStop">
+            <summary>
+            End wanted by host application
+            </summary>
+            <returns>true if plugin can be ended, false to have a delay to terminate a process</returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.ProgramEnd">
+            <summary>
+            End of the plugin
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.IPlugin.StepEndedPrematurely">
+            <summary>
+            Step ended by user (Skip or Scrap when it is the current step)
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.NamespaceDoc">
+            <summary>
+            The <see cref="N:Desoutter.ProcessControl.Plugin.v2.Interface"/> contains classes for API v2.
+            </summary>
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase">
+            <summary>
+            Base class for user-defined plugins.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.InfinityService">
+            <summary>
+            Access point to Infinity capabilities.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.WorkingDirectory">
+            <summary>
+            Directory in which files will be read/written by default.
+            This directory is never deleted.
+            </summary>
+        </member>
+        <member name="P:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.ExecutableDirectory">
+            <summary>
+            Directory where the plugin .dll is located.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.InitializeLifetimeService">
+            <summary>
+            Creates plugin's visual element; called only ones in plugin's lifetime.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.CreateControl">
+            <summary>
+            Create UI part.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.HasToCreateControl">
+            <summary>
+            Indicates if the plugin has an HMI.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.ExecuteStep(System.Object)">
+            <summary>
+            Represents the step execution of the plugin. The developer has to
+            maintain this method running to not end the step.
+            </summary>
+            <param name="parameters"></param>
+            <returns>A value used for traceability and UID/SEQ/Data set</returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.CycleStart">
+            <summary>
+            Signals a new cycle. Could be considered as an Initialize method. Can be overridden.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.ProgramWillStop">
+            <summary>
+            Possibility to delay plugin end by returning false. Can be overridden.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.ProgramEnd">
+            <summary>
+            The plugin instance ends here. Can be overridden.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.StepEndedPrematurely">
+            <summary>
+            Step execution has been canceled by user. Can be overridden.
+            </summary>
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.GetService(System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="M:Desoutter.ProcessControl.Plugin.v2.Interface.PluginBase.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Desoutter.ProcessControl.Plugin.v2.Interface.Version">
+            <summary>
+            Class used to determine plugin system version.
+            </summary>
+        </member>
+        <member name="F:Desoutter.ProcessControl.Plugin.v2.Interface.Version.Unique">
+            <summary>
+            Unique version.
+            </summary>
+        </member>
+    </members>
+</doc>

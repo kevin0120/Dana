@@ -1,0 +1,10 @@
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Debug\RunPlugin.exe.config
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Debug\RunPlugin.exe
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Debug\RunPlugin.pdb
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Debug\RunPlugin.exe
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Debug\RunPlugin.pdb
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Debug\RunPlugin.csprojAssemblyReference.cache
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.dll
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Debug\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Debug\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Debug\RunPlugin.csproj.CopyComplete

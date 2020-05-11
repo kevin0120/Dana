@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the Plugin Interface Documentation" Url="html/0914e9ea-9584-4bb0-a703-4a6a191745b8.htm" />
+  <HelpTOCNode Id="86657e92-20de-4bcf-a4b5-55a381a4eb2c" Title="Version History" Url="html/483a58b1-2899-48bf-8d36-3319e9655eb7.htm">
+    <HelpTOCNode Title="Version 2" Url="html/9e0854ab-716c-4f72-ba3b-61a651212cce.htm" />
+    <HelpTOCNode Title="Version 1" Url="html/4100d164-d101-4f4e-bafb-9f785c8ff7ef.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Title="How to create a plugin" Url="html/f30628f8-aa35-47d2-b511-c921886eb73e.htm" />
+  <HelpTOCNode Title="FAQ" Url="html/caae5e98-a5bb-490e-b751-7d37767104ba.htm" />
+  <HelpTOCNode Id="47298f22-5783-45a9-9fe6-2bfe1f1371d1" Title="Desoutter.ProcessControl.Plugin.v1.Interface" Url="html/0fc05e4b-ee66-2d46-1ee5-194510300de9.htm">
+    <HelpTOCNode Id="f9e17080-c3f9-47a8-a8b0-708d02c91863" Title="IDisplayScreenAlert Interface" Url="html/06633152-1f2f-3c44-0118-880b3433cd2d.htm">
+      <HelpTOCNode Id="b94d330e-9002-40fb-bab0-95dcafdbbec8" Title="IDisplayScreenAlert Methods" Url="html/17826f5f-690e-e682-0e28-df626b038cab.htm">
+        <HelpTOCNode Title="Error Method " Url="html/dd7b84ce-5555-7147-fa4a-55f958316e96.htm" />
+        <HelpTOCNode Title="Info Method " Url="html/4641b042-0912-2deb-1586-0e10f90da7c3.htm" />
+        <HelpTOCNode Title="Warning Method " Url="html/4f28070d-f992-74f9-9fae-3b72df5a6565.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ebc885c-9671-4ae5-b0e0-f18a248e3f4a" Title="IInfinityService Interface" Url="html/e3538273-34fd-1378-4a58-bace29858a45.htm">
+      <HelpTOCNode Id="d600ad01-be28-4f00-8e64-bebace7a8451" Title="IInfinityService Properties" Url="html/65b483c8-8e54-65a6-5de2-88252f48f293.htm">
+        <HelpTOCNode Title="Log Property " Url="html/79db030e-4f99-ecac-a1d8-4536c033b8e5.htm" />
+        <HelpTOCNode Title="ScreenAlert Property " Url="html/4fb7f392-fd78-12c9-bf8e-0f910816943d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6979bb13-dcbf-4618-b76f-4d2c73d2c2b2" Title="IInfinityService Methods" Url="html/c1373e8c-1a63-ff22-4f57-18baf1d21185.htm">
+        <HelpTOCNode Title="DisplayKeyboardAsync Method " Url="html/d26bfff5-0505-b20f-7e81-cb5c33585c25.htm" />
+        <HelpTOCNode Title="GetInputOutputSourcesAsync Method " Url="html/c50f9683-858d-d3f2-bc6f-8ec6afcdb2a3.htm" />
+        <HelpTOCNode Title="GetPreviousResultsAsync Method " Url="html/8900b57d-cf92-d459-f07e-df1d54c96eff.htm" />
+        <HelpTOCNode Title="GetProductSpecificationAsync Method " Url="html/b1a4d8e8-f58c-f54c-c73b-12f2e2e13744.htm" />
+        <HelpTOCNode Title="InsertTraceabilityLine Method " Url="html/9d59a03b-86ce-dd94-c1f7-ea653a63e321.htm" />
+        <HelpTOCNode Title="SetOutputState Method " Url="html/5edf05de-3823-2a48-ff8c-a831f6b86872.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac14981a-18b5-4ada-bb37-14eadae25c6b" Title="IPlugin Interface" Url="html/c6711c8f-2f73-9f08-88a4-2ecaaf9b46aa.htm">
+      <HelpTOCNode Id="a673a078-84e5-47fa-85b2-08558de2046f" Title="IPlugin Properties" Url="html/2ad8fbe3-5010-c281-801c-424820ccdb1f.htm">
+        <HelpTOCNode Title="ExecutableDirectory Property " Url="html/331f53a5-2dd4-6e0f-8ac9-47b216ec5028.htm" />
+        <HelpTOCNode Title="InfinityService Property " Url="html/8ada7e50-987d-3949-b191-4b927478a6c3.htm" />
+        <HelpTOCNode Title="WorkingDirectory Property " Url="html/be80b07c-5f08-3d9c-1506-f801eb0364d1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d1bec1b9-2fb9-47ad-ada9-ad00620a14e6" Title="IPlugin Methods" Url="html/2e2f62a0-12b6-a2f8-64aa-ea676cd2cc60.htm">
+        <HelpTOCNode Title="CreateControl Method " Url="html/f107ca46-edde-7eab-246c-f6b39cdb7976.htm" />
+        <HelpTOCNode Title="CycleStart Method " Url="html/27c843e3-28cd-e9b3-1a10-0f4c88ec8790.htm" />
+        <HelpTOCNode Title="ExecuteStep Method " Url="html/4d088b0e-836d-cdbf-3a26-28ae59963be8.htm" />
+        <HelpTOCNode Title="HasToCreateControl Method " Url="html/8a0ef55c-88e7-c3ef-6dae-428357137a05.htm" />
+        <HelpTOCNode Title="ProgramEnd Method " Url="html/963c25a6-92a1-6451-f5b9-d9a7a1d81b3c.htm" />
+        <HelpTOCNode Title="ProgramWillStop Method " Url="html/65a3c023-9e08-3fc6-da15-7a09946462ec.htm" />
+        <HelpTOCNode Title="StepEndedPrematurely Method " Url="html/adf7c36d-2424-24a4-0de4-54009e3e4712.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b8da308e-a510-444d-819b-3d8a132d3fde" Title="IPluginLog Interface" Url="html/98d20947-9c92-92cd-a36d-9b8151e91895.htm">
+      <HelpTOCNode Id="a250c035-4a00-47f1-9ad7-5bb968d55547" Title="IPluginLog Methods" Url="html/326e48a8-e9dc-4968-538b-47504c34581e.htm">
+        <HelpTOCNode Title="Error Method " Url="html/f884af14-c050-6850-ea22-3e6695563c61.htm" />
+        <HelpTOCNode Title="Info Method " Url="html/b67e1897-98a1-2209-17b2-18ff69e835ce.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="681e8911-3ef0-4781-82b6-9d9365ed1473" Title="PluginBase Class" Url="html/8063bebb-8cf5-a1a0-d43e-67605689acb8.htm">
+      <HelpTOCNode Title="PluginBase Constructor " Url="html/c29d70ef-bddb-12c7-dbfa-8b6635981cf4.htm" />
+      <HelpTOCNode Id="18294057-c52b-4a7b-ab8d-bbcd60e7e35c" Title="PluginBase Properties" Url="html/82d0c128-8dbc-695e-2003-bb8b48a2ad51.htm">
+        <HelpTOCNode Title="ExecutableDirectory Property " Url="html/caa41018-0ddd-8340-06c2-cef42749f28c.htm" />
+        <HelpTOCNode Title="InfinityService Property " Url="html/e061fa1d-700f-eec1-8c09-8e4e4b336f94.htm" />
+        <HelpTOCNode Title="WorkingDirectory Property " Url="html/0cd52735-cf05-0664-3175-12d6c6480d3d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8b3f774b-6dd9-46ab-aca0-a0b9862c004e" Title="PluginBase Methods" Url="html/bc30b249-a79b-8384-3daa-bfd3335ddbdb.htm">
+        <HelpTOCNode Title="CreateControl Method " Url="html/156f6602-c836-74ac-6f02-64bb07eaea26.htm" />
+        <HelpTOCNode Title="CycleStart Method " Url="html/a4814e0a-c05d-dbb1-afcc-a41eb61dde9f.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/e83d445c-f65a-f36d-f397-40fd287130e8.htm" />
+        <HelpTOCNode Title="ExecuteStep Method " Url="html/10380040-8874-51a8-17fa-9bdd3ea4a947.htm" />
+        <HelpTOCNode Title="GetService Method " Url="html/4201a356-fce9-48fb-210d-76a211f0548f.htm" />
+        <HelpTOCNode Title="HasToCreateControl Method " Url="html/1bc80628-2287-7763-f87a-925b74c400da.htm" />
+        <HelpTOCNode Title="InitializeLifetimeService Method " Url="html/654c50eb-c824-ba8b-83e7-f4d33146db65.htm" />
+        <HelpTOCNode Title="ProgramEnd Method " Url="html/79b538e9-62d5-2c95-c69f-afefabfb91b0.htm" />
+        <HelpTOCNode Title="ProgramWillStop Method " Url="html/9ad7ed05-0f21-567f-ed87-a0de3d5a57c0.htm" />
+        <HelpTOCNode Title="StepEndedPrematurely Method " Url="html/5419a80a-a24a-cac3-87b7-8754bffccccf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="8b4b7239-6401-4be0-98e5-44f549657138" Title="Desoutter.ProcessControl.Plugin.v2.Interface" Url="html/8cff065b-ee39-97a1-728b-d5d0ef5be5a7.htm">
+    <HelpTOCNode Id="ec692db6-06df-47f9-820b-0109edb8e0d9" Title="IConfiguration Interface" Url="html/5d900445-019d-b769-5752-86cebb8665eb.htm">
+      <HelpTOCNode Id="f112492f-8f92-4ac7-956d-bbf64543fe48" Title="IConfiguration Methods" Url="html/579a32b5-74dd-2495-098a-ab8a99c460c1.htm">
+        <HelpTOCNode Title="GetAssetsAsync Method " Url="html/05997cdb-423c-5c0c-1a70-970d17e16c61.htm" />
+        <HelpTOCNode Title="GetStepsAsync Method " Url="html/9e627804-a5d4-197e-4bd4-891daca9cce4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0d51eb8d-3946-45f6-9cf6-b5c7ce4370d1" Title="IDisplayScreenAlert Interface" Url="html/d5000a7b-ebba-8af3-aefa-fed754f3ed71.htm">
+      <HelpTOCNode Id="5ba4227c-0e77-4106-a119-354e5cc6920d" Title="IDisplayScreenAlert Methods" Url="html/3f3cfd0a-9dd3-7e80-0a2d-ef8ca883116b.htm">
+        <HelpTOCNode Title="Error Method " Url="html/3e1c99dc-21b7-56de-8183-d83ed75022b6.htm" />
+        <HelpTOCNode Title="Info Method " Url="html/eaaa4f60-a14c-fd6d-1916-a52a85051f0a.htm" />
+        <HelpTOCNode Title="Warning Method " Url="html/0f88e2e7-85f6-ecb3-ef26-b57e7b032b18.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0b40a98d-8526-4475-b977-6e1cd89d2484" Title="IInfinityService Interface" Url="html/da2dabae-5990-dea6-d0ca-d0f8059162d5.htm">
+      <HelpTOCNode Id="00bbdeaa-3db5-4496-aca2-eff11db72bfa" Title="IInfinityService Properties" Url="html/fe82d9df-59e0-e5cd-038f-43db4875cc60.htm">
+        <HelpTOCNode Title="Configuration Property " Url="html/ef51cb97-4136-e4d1-dab5-b81e1b987e93.htm" />
+        <HelpTOCNode Title="Log Property " Url="html/021789b6-608c-4a5a-e189-24606f989f4d.htm" />
+        <HelpTOCNode Title="Production Property " Url="html/41f907e5-df04-acb6-60de-261ee36b9641.htm" />
+        <HelpTOCNode Title="ScreenAlert Property " Url="html/a046d9d9-17cb-77ab-f1e8-0a47ca82bb3e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4a491a8e-f5e5-4bad-b22d-b4618c6cce08" Title="IInfinityService Methods" Url="html/78b57117-505d-c7af-2c43-0826e40cec90.htm">
+        <HelpTOCNode Title="DisplayKeyboardAsync Method " Url="html/1ca968de-5c3f-28eb-6a38-71671af90651.htm" />
+        <HelpTOCNode Title="GetInputOutputSourcesAsync Method " Url="html/317ebed5-20cf-bcee-8eba-98a350c2a46b.htm" />
+        <HelpTOCNode Title="InsertTraceabilityLine Method " Url="html/9cabc896-4e54-f820-769c-baa6489ffb3b.htm" />
+        <HelpTOCNode Title="SetOutputState Method " Url="html/07acbff5-5233-672b-2e05-4ed5560eaf26.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8973dc47-dd5e-4d71-abf3-d7523ba985d7" Title="IPlugin Interface" Url="html/71766b80-304c-0097-8c13-9269221a713d.htm">
+      <HelpTOCNode Id="d2dd363e-c917-450c-a611-fdb536816446" Title="IPlugin Properties" Url="html/9059b312-fecb-bfaf-2c83-3f6c73a88540.htm">
+        <HelpTOCNode Title="ExecutableDirectory Property " Url="html/b39e4e11-4b58-b8a7-0d68-9a3e8f7c25f7.htm" />
+        <HelpTOCNode Title="InfinityService Property " Url="html/ed376e81-fed9-4507-cb6d-fd07ba7d03c6.htm" />
+        <HelpTOCNode Title="WorkingDirectory Property " Url="html/1a251707-062a-9954-a3b9-8a57a88ebde8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5d9b9ffb-2800-439b-b16d-b128589a617b" Title="IPlugin Methods" Url="html/a919d6b7-15b8-5fa8-807f-15d3baad1350.htm">
+        <HelpTOCNode Title="CreateControl Method " Url="html/2d961344-5df4-9971-8645-751c86d41617.htm" />
+        <HelpTOCNode Title="CycleStart Method " Url="html/7587cf15-b9b7-1f6e-fea8-e22bf546d527.htm" />
+        <HelpTOCNode Title="ExecuteStep Method " Url="html/b7f4f84f-7278-9d68-82f6-4a9fea33a24b.htm" />
+        <HelpTOCNode Title="HasToCreateControl Method " Url="html/a3572d3a-7320-e928-1ef1-bb0323022a4e.htm" />
+        <HelpTOCNode Title="ProgramEnd Method " Url="html/5950c759-c0e9-e319-a899-5a62d1971cdb.htm" />
+        <HelpTOCNode Title="ProgramWillStop Method " Url="html/6f3e964c-b48e-004c-62e7-13f4739b3482.htm" />
+        <HelpTOCNode Title="StepEndedPrematurely Method " Url="html/dea44db7-2738-ee0d-8f02-b3527a894496.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="22ce951f-8669-41f2-a4c8-24e671037871" Title="IPluginLog Interface" Url="html/c0af01f4-78f5-8a27-9d66-16dba393134f.htm">
+      <HelpTOCNode Id="c1fc2a4a-c01d-4097-8f95-4ed96deadadd" Title="IPluginLog Methods" Url="html/6322bac8-5ecf-bc91-67a2-6112cddb6e51.htm">
+        <HelpTOCNode Title="Error Method " Url="html/f55c0f5e-d0d0-e218-a7eb-ac0c129a3f18.htm" />
+        <HelpTOCNode Title="Info Method " Url="html/f9f03517-8227-bf30-7346-5fd3f08e580e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cece521c-2539-4ffb-b2ec-1362899ea701" Title="IProduction Interface" Url="html/07c84a5c-d287-f812-6c7d-e8d9cad02429.htm">
+      <HelpTOCNode Id="4237da3f-3c68-4177-bdee-2697919865b1" Title="IProduction Methods" Url="html/d0d8b971-d5d8-39a8-bdb1-30a4103e47cc.htm">
+        <HelpTOCNode Title="GetLoggedUsersAsync Method " Url="html/54b270ef-34ab-380a-5faf-90053398da17.htm" />
+        <HelpTOCNode Title="GetPreviousResultsAsync Method " Url="html/b6c53237-a9ba-55b3-336c-9fd0e5b48738.htm" />
+        <HelpTOCNode Title="GetProductSpecificationAsync Method " Url="html/fab01371-5bc6-bd24-6de8-8aa7efca1648.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="503a46a2-e565-48c3-ba3f-a91d6a9281e2" Title="PluginBase Class" Url="html/4b61f65c-5d16-245b-6d10-a35d03e4d9dc.htm">
+      <HelpTOCNode Title="PluginBase Constructor " Url="html/d94d79ec-6340-2a32-fa6f-865a6a4868b8.htm" />
+      <HelpTOCNode Id="2d9fbfac-c520-4ebf-8029-741d7e949fba" Title="PluginBase Properties" Url="html/9ae34768-41a3-30b9-9b3d-95916fe43e72.htm">
+        <HelpTOCNode Title="ExecutableDirectory Property " Url="html/9c310499-f41f-cdde-d7da-79ef94946ac8.htm" />
+        <HelpTOCNode Title="InfinityService Property " Url="html/1f6ca035-bf5d-8433-7f4f-d37eec1668d4.htm" />
+        <HelpTOCNode Title="WorkingDirectory Property " Url="html/a91a669f-3d1c-c379-4b70-5bc3d4c5b076.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1709657e-aa55-45cb-a3c4-a66d8f593106" Title="PluginBase Methods" Url="html/a65527f0-ad11-23d1-d045-975b5db67198.htm">
+        <HelpTOCNode Title="CreateControl Method " Url="html/f53fbce6-91a2-5b40-8699-980d1bd5180f.htm" />
+        <HelpTOCNode Title="CycleStart Method " Url="html/905a2a71-eb97-107e-1fef-faac85beb3c1.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/ac1261b9-cda6-9578-9d12-c1afe46aec85.htm" />
+        <HelpTOCNode Title="ExecuteStep Method " Url="html/849d1f17-0840-e3af-8956-9b189ea71aa5.htm" />
+        <HelpTOCNode Title="GetService Method " Url="html/f4a7891b-8d47-c86e-2071-30a1c900a8ac.htm" />
+        <HelpTOCNode Title="HasToCreateControl Method " Url="html/e5fc31fb-86ed-4e43-ae66-b38aa2cb7965.htm" />
+        <HelpTOCNode Title="InitializeLifetimeService Method " Url="html/eabc8f90-f9d7-b0f7-512a-08fd29f4a236.htm" />
+        <HelpTOCNode Title="ProgramEnd Method " Url="html/7204a6a0-a406-154f-c346-33a689e9c086.htm" />
+        <HelpTOCNode Title="ProgramWillStop Method " Url="html/a9bef3d6-9438-341f-0894-15fbfeb71e7e.htm" />
+        <HelpTOCNode Title="StepEndedPrematurely Method " Url="html/97c4dc3f-ea18-5a74-d642-49d3a9e808a9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3b7fc66-5998-4c5e-b99e-118300f479a9" Title="Version Class" Url="html/a772315c-5688-62d4-f42a-1aef3a308b85.htm">
+      <HelpTOCNode Id="897bcaae-50d1-4b5f-a29e-9ce112fc6c64" Title="Version Fields" Url="html/a7c3f8c8-5d46-5cf2-f15b-23346f767589.htm">
+        <HelpTOCNode Title="Unique Field" Url="html/d777ba59-b2ac-0e7d-5ef4-4c23ca395b29.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

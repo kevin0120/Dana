@@ -1,0 +1,70 @@
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe.config
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.pdb
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\MainWindow.g.cs
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\App.g.cs
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.cache
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.lref
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\MainWindow.baml
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.g.resources
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.Properties.Resources.resources
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csproj.GenerateResource.Cache
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.exe
+c:\users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.pdb
+C:\Users\kai.zhi\documents\visual studio 2015\Projects\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csprojResolveAssemblyReference.cache
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe.config
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.exe
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.pdb
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.pdb
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csprojResolveAssemblyReference.cache
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\MainWindow.g.cs
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\App.g.cs
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.cache
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.lref
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\MainWindow.baml
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.g.resources
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.Properties.Resources.resources
+C:\我的文件\工作\TURCK\1.RFID相关\2.技术相关\3.程序测试\RS485\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csproj.GenerateResource.Cache
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe.config
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.pdb
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\MainWindow.g.cs
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\App.g.cs
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.cache
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.lref
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\MainWindow.baml
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.g.resources
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.Properties.Resources.resources
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csproj.GenerateResource.cache
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.exe
+D:\资料\TURCK\RFID\Reader\Turck_RS485_RW_TCP\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.pdb
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe.config
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.pdb
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csprojAssemblyReference.cache
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\MainWindow.g.cs
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\App.g.cs
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.cache
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.lref
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\MainWindow.baml
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.g.resources
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.Properties.Resources.resources
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csproj.GenerateResource.cache
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csproj.CoreCompileInputs.cache
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.exe
+C:\Users\cnhshz\Desktop\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.pdb
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe.config
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.exe
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\bin\Debug\Turck_RS485_RW_TCP.pdb
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csprojAssemblyReference.cache
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\MainWindow.g.cs
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\App.g.cs
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.cache
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP_MarkupCompile.lref
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\MainWindow.baml
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.g.resources
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.Properties.Resources.resources
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.csproj.GenerateResource.cache
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.exe
+D:\Code\C#\Pivotware\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP_源码\Turck_RS485_RW_TCP\obj\Debug\Turck_RS485_RW_TCP.pdb

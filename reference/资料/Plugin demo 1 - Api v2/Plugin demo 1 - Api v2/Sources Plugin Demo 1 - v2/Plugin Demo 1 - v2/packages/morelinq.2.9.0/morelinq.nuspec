@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>morelinq</id>
+    <version>2.9.0</version>
+    <title>MoreLINQ</title>
+    <authors>MoreLINQ Developers.</authors>
+    <owners>MoreLINQ Developers.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://morelinq.github.io/</projectUrl>
+    <description>This project enhances LINQ to Objects with the following methods: Acquire, AggregateRight, Assert, AssertCount, AtLeast, AtMost, Batch, Cartesian, CountBetween, CountBy, Concat, Consume, DistinctBy, EndsWith, EquiZip, Exactly, ExceptBy, Exclude, FallbackIfEmpty, FillBackward, FillForward, Fold, ForEach, From, FullGroupJoin, FullJoin, Generate, GenerateByIndex, GroupAdjacent, Incremental, Index, Insert, Interleave, Lag, Lead, LeftJoin, MaxBy, MinBy, Move, NestedLoops, OrderBy, OrderedMerge, Pad, PadStart, Pairwise, PartialSort, PartialSortBy, Partition, Permutations, Pipe, Prepend, PreScan, Random, RandomDouble, RandomSubset, Rank, RankBy, Repeat, RightJoin, RunLengthEncode, Scan, ScanRight, Segment, Sequence, SingleOrFallback, SkipLast, SkipUntil, Slice, SortedMerge, Split, StartsWith, Subsets, TagFirstLast, TakeEvery, TakeLast, TakeUntil, ThenBy, ToArrayByIndex, ToDataTable, ToDelimitedString, ToDictionary, ToHashSet, ToLookup, Trace, TraverseBreadthFirst, TraverseDepthFirst, Unfold, Windowed, ZipLongest, ZipShortest</description>
+    <releaseNotes>Adds new operators: Insert. See also https://github.com/morelinq/MoreLINQ/wiki/API-Changes.</releaseNotes>
+    <copyright>© 2008 Jonathan Skeet. Portions © 2009 Atif Aziz, Chris Ammerman, Konrad Rudolph. Portions © 2010 Johannes Rudolph, Leopold Bushkin. Portions © 2015 Felipe Sateler, “sholland”. Portions © 2016 Andreas Gullberg Larsen, Leandro F. Vieira (leandromoh). Portions © Microsoft. All rights reserved.</copyright>
+    <tags>linq extensions</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="System.ValueTuple" version="4.4.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.4.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.00.0" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.00.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.00.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.00.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

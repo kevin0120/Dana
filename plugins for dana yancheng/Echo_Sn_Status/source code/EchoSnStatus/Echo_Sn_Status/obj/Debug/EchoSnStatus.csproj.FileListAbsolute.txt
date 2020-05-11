@@ -1,0 +1,11 @@
+C:\Source\EchoSnStatus\EchoSnStatus\bin\Debug\EchoSnStatus.dll
+C:\Source\EchoSnStatus\EchoSnStatus\bin\Debug\EchoSnStatus.pdb
+C:\Source\EchoSnStatus\EchoSnStatus\bin\Debug\Dapper.dll
+C:\Source\EchoSnStatus\EchoSnStatus\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.dll
+C:\Source\EchoSnStatus\EchoSnStatus\bin\Debug\Dapper.xml
+C:\Source\EchoSnStatus\EchoSnStatus\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.pdb
+C:\Source\EchoSnStatus\EchoSnStatus\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.xml
+C:\Source\EchoSnStatus\EchoSnStatus\obj\Debug\EchoSnStatus.csproj.CoreCompileInputs.cache
+C:\Source\EchoSnStatus\EchoSnStatus\obj\Debug\EchoSnStatus.csproj.CopyComplete
+C:\Source\EchoSnStatus\EchoSnStatus\obj\Debug\EchoSnStatus.dll
+C:\Source\EchoSnStatus\EchoSnStatus\obj\Debug\EchoSnStatus.pdb

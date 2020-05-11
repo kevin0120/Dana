@@ -1,0 +1,104 @@
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\View\MainView.g.cs
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\SerialCommunicationPlugin_MarkupCompile.cache
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\SerialCommunicationPlugin_MarkupCompile.lref
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\SerialCommunicationPlugin.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\SerialCommunicationPlugin.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\View\MainView.baml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\SerialCommunicationPlugin.g.resources
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\SerialCommunicationPlugin.Properties.Resources.resources
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\Plugin.csproj.GenerateResource.Cache
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\SerialCommunicationPlugin.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Serial Communication Plugin\Plugin\obj\Debug\SerialCommunicationPlugin.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\View\MainView.g.cs
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\View\MainView.baml
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\Plugin.csproj.GenerateResource.Cache
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\TestPlugin.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\TestPlugin.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\TestPlugin_MarkupCompile.cache
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\TestPlugin_MarkupCompile.lref
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\TestPlugin.g.resources
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\TestPlugin.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\obj\Debug\TestPlugin.pdb
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\Desoutter.ProcessControl.Plugin.v1.Interface.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\S7.Net.dll
+C:\Users\Grexr\Documents\Visual Studio 2015\Projects\_Pivotware - Plugins\Test Plugin\Plugin\bin\Debug\S7.Net.xml
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\View\MainView.g.cs
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\Desoutter.ProcessControl.Plugin.v2.Interface.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\View\MainView.baml
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.csproj.GenerateResource.Cache
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.csproj.CoreCompileInputs.cache
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\PluginDemo1.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\bin\Debug\PluginDemo1.pdb
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1_MarkupCompile.cache
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1_MarkupCompile.lref
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1.g.resources
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1.dll
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1.pdb
+C:\Users\Grexr\Documents\Visual Studio 2017\Projects\_Pivotware - Plugins\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.csprojResolveAssemblyReference.cache
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\PluginDemo1.dll
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\PluginDemo1.pdb
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.dll
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\System.Windows.Interactivity.dll
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.xml
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.csprojAssemblyReference.cache
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\View\MainView.g.cs
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1_MarkupCompile.cache
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1_MarkupCompile.lref
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\View\MainView.baml
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1.g.resources
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.Properties.Resources.resources
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.csproj.GenerateResource.cache
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\Plugin.csproj.CopyComplete
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1.dll
+D:\C#\Pivotware\资料\Plugin demo 1 - Api v2\Plugin demo 1 - Api v2\Sources Plugin Demo 1 - v2\Plugin Demo 1 - v2\Plugin\obj\Debug\PluginDemo1.pdb
