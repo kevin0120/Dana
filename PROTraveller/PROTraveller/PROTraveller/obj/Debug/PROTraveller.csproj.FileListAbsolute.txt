@@ -71,7 +71,6 @@ D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\bin\Debug\NPOI.OpenXml4Ne
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\bin\Debug\NPOI.OpenXmlFormats.dll
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\bin\Debug\Dapper.xml
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\bin\Debug\ICSharpCode.SharpZipLib.xml
-D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.csprojAssemblyReference.cache
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.Execute.resources
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.Import.resources
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.Main.resources

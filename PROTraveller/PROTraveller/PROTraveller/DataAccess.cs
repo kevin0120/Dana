@@ -91,10 +91,10 @@ namespace PROTraveller
         public void InsertSN(SNModel sn)
         {
 
-            string insert1 = "insert into SN(PRO_Id,SN,Status,LatestModifyTime,OrderNumber,Model) values (";
+            string insert1 = "insert into SN(PRO_Id,SN,Status,LatestModifyTime,OrderNumber,Model,Line,Description) values (";
             string insert2 = " \'" + sn.Pro_Id+ "\' ,";
             string insert3 = " \'" + sn.SN + "\',\'" + sn.Status + "\',\'" + sn.LatestModifyTime+ "\',";
-            string insert4 = " \'" + sn.OrderNumber + "\',\'" + sn.Model + "\' )";
+            string insert4 = " \'" + sn.OrderNumber + "\',\'" + sn.Model + "\',\'" + sn.Line + "\',\'" + sn.Description + "\' )";
             string insert = insert1 + insert2 + insert3 + insert4;
             try
             {

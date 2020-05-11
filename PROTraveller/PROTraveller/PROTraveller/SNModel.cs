@@ -14,5 +14,7 @@ namespace PROTraveller
         public string LatestModifyTime;
         public string OrderNumber;
         public string Model;
+        public string Line;
+        public string Description;
     }
 }

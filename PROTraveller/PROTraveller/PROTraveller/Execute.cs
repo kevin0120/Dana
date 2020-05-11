@@ -79,7 +79,10 @@ namespace PROTraveller
             int totalQuantity = int.Parse(dataGridViewExecute.Rows[index].Cells[4].Value.ToString());
             string status = dataGridViewExecute.Rows[index].Cells[6].Value.ToString();
             string orderNumber = dataGridViewExecute.Rows[index].Cells[3].Value.ToString();
-            string model = dataGridViewExecute.Rows[index].Cells[5].Value.ToString();
+            string model = dataGridViewExecute.Rows[index].Cells[5].Value.ToString(); 
+            string line1 = dataGridViewExecute.Rows[index].Cells[1].Value.ToString();
+            string desc = dataGridViewExecute.Rows[index].Cells[9].Value.ToString();
+
             if ( status.Contains("Not"))  // not started
             {
                 da.Update(id);
@@ -140,8 +143,9 @@ namespace PROTraveller
                     item.LatestModifyTime = DateTime.Now.ToString();
                     item.Model = model;
                     item.OrderNumber = orderNumber;
-
-
+                    item.Line = line1;
+                    item.Description = desc;
+                    
                     da.InsertSN(item);
                 }
                 string line = comboBoxLine.Text;
