@@ -26,3 +26,8 @@ D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_R
 D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Debug\Truck_RFID_TCP_Reader.dll
 D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Debug\Truck_RFID_TCP_Reader.pdb
 D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Debug\Truck_RFID_TCP_Reader.csprojAssemblyReference.cache
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Debug\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\bin\Debug\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Debug\Truck_RFID_TCP_Reader.csproj.CopyComplete
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Debug\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\Truck_RFID_TCP_Reader\obj\Debug\Truck_RFID_TCP_Reader.pdb

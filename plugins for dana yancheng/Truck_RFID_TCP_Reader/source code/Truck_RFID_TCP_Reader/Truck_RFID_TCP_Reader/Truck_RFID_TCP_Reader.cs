@@ -17,7 +17,6 @@ namespace Truck_RFID_TCP_Reader
     {
         TcpClient client;
         NetworkStream sendStream;
-        Thread _thread;
         bool listenStart = false;
         private static Thread _ComSend; //发送数据线程
         private static bool Sending = false;//正在发送数据状态字
@@ -43,7 +42,7 @@ namespace Truck_RFID_TCP_Reader
             cmdData[0] = 0x68;
             cmdData[1] = 0x00;
             cmdData[2] = 0x00;
-            cmdData[3] = 0x18;
+            cmdData[3] = 0x0F;
             sendStr.SendData = Transmit(cmdData);
             Send(sendStr);
 
@@ -184,11 +183,19 @@ namespace Truck_RFID_TCP_Reader
                     }
 
 
+                    //string Text1 = string.Empty;
+                    //for (int i = 0; i < 200; i++)
+                    //{
+                    //    Text1 += "0x" + buffer[i].ToString("X02") + " ";
+                    //}
+
+                    //MessageBox.Show("收到字节：" + Text1);
+
                     if (buffer[0] == 0xAA && buffer[10] == 0x68)
                     {
 
-                        byte[] a = buffer.Skip(12).Take(100).ToArray();
-                        val = Encoding.ASCII.GetString(a, 0, 100).Trim();
+                        byte[] a = buffer.Skip(12).Take(64).ToArray();
+                        val = Encoding.ASCII.GetString(a, 0, 64).Trim();
 
                         client.Close();
                         return;

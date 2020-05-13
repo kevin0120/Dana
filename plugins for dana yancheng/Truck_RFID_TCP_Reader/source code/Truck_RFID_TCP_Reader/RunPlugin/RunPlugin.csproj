@@ -51,6 +51,7 @@
     <Reference Include="Desoutter.ProcessControl.Plugin.v2.Interface">
       <HintPath>..\Truck_RFID_TCP_Reader\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

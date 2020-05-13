@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PROTraveller
@@ -22,7 +17,7 @@ namespace PROTraveller
         {
             if (e.Button == MouseButtons.Right)
             {
-                if (e.RowIndex >= 0 && e.ColumnIndex >=0)
+                if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
                 {
 
                     if (dataGridViewExecute.Rows[e.RowIndex].Selected == false)
@@ -48,11 +43,11 @@ namespace PROTraveller
             string line = comboBoxLine.Text;
             string proNumber = txtProNumber.Text;
             string status = comboBoxStutus.Text;
-            DataTable dt = da.GetProDb(line,proNumber,status).Tables[0];
-            if (dt.Rows.Count !=0)
+            DataTable dt = da.GetProDb(line, proNumber, status).Tables[0];
+            if (dt.Rows.Count != 0)
             {
                 dataGridViewExecute.DataSource = dt;  //dataSet.Tables[0].DefaultView
-                if(dt.Rows.Count <=10)
+                if (dt.Rows.Count <= 10)
                 {
                     dataGridViewExecute.Height = (dataGridViewExecute.RowCount + 2) * dataGridViewExecute.Columns[0].HeaderCell.Size.Height;
                 }
@@ -79,11 +74,11 @@ namespace PROTraveller
             int totalQuantity = int.Parse(dataGridViewExecute.Rows[index].Cells[4].Value.ToString());
             string status = dataGridViewExecute.Rows[index].Cells[6].Value.ToString();
             string orderNumber = dataGridViewExecute.Rows[index].Cells[3].Value.ToString();
-            string model = dataGridViewExecute.Rows[index].Cells[5].Value.ToString(); 
+            string model = dataGridViewExecute.Rows[index].Cells[5].Value.ToString();
             string line1 = dataGridViewExecute.Rows[index].Cells[1].Value.ToString();
             string desc = dataGridViewExecute.Rows[index].Cells[9].Value.ToString();
 
-            if ( status.Contains("Not"))  // not started
+            if (status.Contains("Not"))  // not started
             {
                 da.Update(id);
                 string year = DateTime.Now.Year.ToString();
@@ -93,7 +88,7 @@ namespace PROTraveller
 
                 {
                     case "1":
-                         month = "Jan";
+                        month = "Jan";
                         break;
                     case "2":
                         month = "Feb";
@@ -134,9 +129,9 @@ namespace PROTraveller
                 }
                 string yearMonthCode = da.GetYearMonthCode(year, month).ToString();
                 SNModel item = new SNModel();
-                for(int i =1; i<=totalQuantity; i++)
+                for (int i = 1; i <= totalQuantity; i++)
                 {
-                    string sn = yearMonthCode + "-BY" + orderNumber.Trim() + i.ToString().PadLeft(4,'0');
+                    string sn = yearMonthCode + "-BY" + orderNumber.Trim() + i.ToString().PadLeft(4, '0');
                     item.Pro_Id = int.Parse(id);
                     item.SN = sn;
                     item.Status = "Not started";
@@ -145,7 +140,7 @@ namespace PROTraveller
                     item.OrderNumber = orderNumber;
                     item.Line = line1;
                     item.Description = desc;
-                    
+
                     da.InsertSN(item);
                 }
                 string line = comboBoxLine.Text;
@@ -163,7 +158,7 @@ namespace PROTraveller
                 MessageBox.Show("SN已生成！");
 
             }
-            if(status.Contains("Completed"))
+            if (status.Contains("Completed"))
             {
                 MessageBox.Show("此工单已全部完成！");
             }
@@ -194,9 +189,9 @@ namespace PROTraveller
                     {
                         dataGridViewSNQuery.Height = (dataGridViewSNQuery.RowCount + 2) * dataGridViewSNQuery.Columns[0].HeaderCell.Size.Height;
                     }
-                 
+
                     dataGridViewSNQuery.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-                    labProNumber.Text ="工单：" + pn + " 下的所有SN：";
+                    labProNumber.Text = "工单：" + pn + " 下的所有SN：";
                     dataGridViewSNQuery.EnableHeadersVisualStyles = false;
                     dataGridViewSNQuery.EnableHeadersVisualStyles = false;
                     dataGridViewSNQuery.ColumnHeadersDefaultCellStyle.BackColor = Color.Orange;
@@ -219,6 +214,11 @@ namespace PROTraveller
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewExecute_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

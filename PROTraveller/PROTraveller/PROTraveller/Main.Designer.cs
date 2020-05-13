@@ -56,6 +56,7 @@
             this.tabImport.Tag = "PROTraveller.Import";
             this.tabImport.Text = "导入";
             this.tabImport.UseVisualStyleBackColor = true;
+            this.tabImport.Click += new System.EventHandler(this.tabImport_Click);
             // 
             // tabCtrl
             // 

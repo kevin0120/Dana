@@ -49,7 +49,6 @@
             // 
             // labLine
             // 
-            //this.labLine.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labLine.Location = new System.Drawing.Point(34, 51);
             this.labLine.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -64,7 +63,8 @@
             this.comboBoxLine.Items.AddRange(new object[] {
             "B4 & B5",
             "SH7&SH11",
-            "Orbital motor",""});
+            "Orbital motor",
+            ""});
             this.comboBoxLine.Location = new System.Drawing.Point(119, 52);
             this.comboBoxLine.Name = "comboBoxLine";
             this.comboBoxLine.Size = new System.Drawing.Size(121, 28);
@@ -73,7 +73,6 @@
             // 
             // label2
             // 
-            //this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(277, 51);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -91,7 +90,6 @@
             // 
             // label3
             // 
-            //this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(533, 53);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -107,7 +105,8 @@
             this.comboBoxStutus.Items.AddRange(new object[] {
             "Not started",
             "In progress",
-            "Completed",""});
+            "Completed",
+            ""});
             this.comboBoxStutus.Location = new System.Drawing.Point(631, 52);
             this.comboBoxStutus.Name = "comboBoxStutus";
             this.comboBoxStutus.Size = new System.Drawing.Size(121, 28);
@@ -115,7 +114,6 @@
             // 
             // dataGridViewExecute
             // 
-            //this.dataGridViewExecute.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewExecute.ContextMenuStrip = this.ContextMenu;
             this.dataGridViewExecute.Location = new System.Drawing.Point(12, 126);
             this.dataGridViewExecute.MultiSelect = false;
@@ -125,6 +123,7 @@
             this.dataGridViewExecute.Size = new System.Drawing.Size(1337, 316);
             this.dataGridViewExecute.TabIndex = 8;
             this.dataGridViewExecute.Visible = false;
+            this.dataGridViewExecute.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewExecute_CellContentClick);
             this.dataGridViewExecute.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewExecute_CellMouseDown);
             // 
             // ContextMenu

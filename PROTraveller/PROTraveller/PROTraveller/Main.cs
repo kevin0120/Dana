@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PROTraveller
@@ -58,6 +51,11 @@ namespace PROTraveller
         }
 
         private void tabExecute_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabImport_Click(object sender, EventArgs e)
         {
 
         }
