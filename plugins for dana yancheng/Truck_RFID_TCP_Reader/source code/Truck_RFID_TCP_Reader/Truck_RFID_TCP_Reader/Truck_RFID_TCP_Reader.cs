@@ -22,6 +22,7 @@ namespace Truck_RFID_TCP_Reader
         private static bool Sending = false;//正在发送数据状态字
         private SendStr sendStr = new SendStr(); //发送数据线程传递参数的结构体格式
         private string val = string.Empty;
+        private string val_return = string.Empty;
         private struct SendStr
         {
             public byte[] SendData;
@@ -54,7 +55,10 @@ namespace Truck_RFID_TCP_Reader
                ReadProc();
             }
 
-            return new StepResult { Data = val, IsPassed = true };
+            val_return = val;
+            val = string.Empty;
+
+            return new StepResult { Data = val_return, IsPassed = true };
         }
 
         public override bool HasToCreateControl()
@@ -138,7 +142,7 @@ namespace Truck_RFID_TCP_Reader
                     catch (Exception err)
                     {
                         client.Close();
-                        MessageBox.Show("ComSend 命令发送失败：" + err.Message, "提示");
+                       // MessageBox.Show("ComSend 命令发送失败：" + err.Message, "提示");
                     }
                 }
             }
@@ -164,7 +168,7 @@ namespace Truck_RFID_TCP_Reader
             catch (Exception err)
             {
                 client.Close();
-                MessageBox.Show("Connect 出现错误：" + err.Message, "提示");
+               // MessageBox.Show("Connect 出现错误：" + err.Message, "提示");
             }
 
         }
@@ -173,7 +177,7 @@ namespace Truck_RFID_TCP_Reader
         {
             listenStart = false;
             if (client.Connected) { 
-            MessageBox.Show("该工步使用的读rfid插件已经超时10s！！！，发射器可能不在合理范围之内，结束工步","提示");
+            //MessageBox.Show("该工步使用的读rfid插件已经超时10s！！！，发射器可能不在合理范围之内，结束工步","提示");
             }
         }
 
@@ -255,7 +259,7 @@ namespace Truck_RFID_TCP_Reader
                 {
                     client.Close();
 
-                    MessageBox.Show("ReadProc 出现错误：" + err.Message, "提示");
+                   // MessageBox.Show("ReadProc 出现错误：" + err.Message, "提示");
                     return;
                 }
                 //将缓存中的数据写入传输流

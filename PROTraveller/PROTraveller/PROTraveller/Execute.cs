@@ -131,7 +131,7 @@ namespace PROTraveller
                 SNModel item = new SNModel();
                 for (int i = 1; i <= totalQuantity; i++)
                 {
-                    string sn = yearMonthCode + "-BY" + orderNumber.Trim() + i.ToString().PadLeft(4, '0');
+                    string sn = yearMonthCode + "-BY" + orderNumber.Trim() + i.ToString().PadLeft(4, '0') + "/" + totalQuantity;
                     item.Pro_Id = int.Parse(id);
                     item.SN = sn;
                     item.Status = "Not started";

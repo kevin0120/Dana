@@ -8,3 +8,13 @@ D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_R
 D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.dll
 D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\Truck_RFID_TCP_Reader.pdb
 D:\Code\C#\Pivotware\plugins for dana yancheng\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Release\RunPlugin.csproj.CopyComplete
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\RunPlugin.exe.config
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\RunPlugin.exe
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\RunPlugin.pdb
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\Desoutter.ProcessControl.Plugin.v2.Interface.dll
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\Truck_RFID_TCP_Reader.dll
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\bin\Release\Truck_RFID_TCP_Reader.pdb
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Release\RunPlugin.csprojAssemblyReference.cache
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Release\RunPlugin.csproj.CopyComplete
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Release\RunPlugin.exe
+D:\Code\C#\Dana\plugins for dana yancheng\Truck_RFID_TCP_Reader\source code\Truck_RFID_TCP_Reader\RunPlugin\obj\Release\RunPlugin.pdb
