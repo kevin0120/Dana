@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace PROTraveller
@@ -77,61 +78,73 @@ namespace PROTraveller
             string model = dataGridViewExecute.Rows[index].Cells[5].Value.ToString();
             string line1 = dataGridViewExecute.Rows[index].Cells[1].Value.ToString();
             string desc = dataGridViewExecute.Rows[index].Cells[9].Value.ToString();
+            string belongs = dataGridViewExecute.Rows[index].Cells[7].Value.ToString().Substring(2,6);
+
 
             if (status.Contains("Not"))  // not started
             {
                 da.Update(id);
-                string year = DateTime.Now.Year.ToString();
-                string month = DateTime.Now.Month.ToString();
+                /*                string year = DateTime.Now.Year.ToString();
+                                string month = DateTime.Now.Month.ToString();
 
-                switch (month)
+                                switch (month)
 
-                {
-                    case "1":
-                        month = "Jan";
-                        break;
-                    case "2":
-                        month = "Feb";
-                        break;
-                    case "3":
-                        month = "Mar";
-                        break;
-                    case "4":
-                        month = "Apr";
-                        break;
-                    case "5":
-                        month = "May";
-                        break;
-                    case "6":
-                        month = "June";
-                        break;
-                    case "7":
-                        month = "July";
-                        break;
-                    case "8":
-                        month = "Aug";
-                        break;
-                    case "9":
-                        month = "Sep";
-                        break;
-                    case "10":
-                        month = "Oct";
-                        break;
-                    case "11":
-                        month = "Nov";
-                        break;
-                    case "12":
-                        month = "Dec";
-                        break;
-                    default:
-                        month = "Jan";
-                        break;
-                }
-                string yearMonthCode = da.GetYearMonthCode(year, month).ToString();
+                                {
+                                    case "1":
+                                        month = "Jan";
+                                        break;
+                                    case "2":
+                                        month = "Feb";
+                                        break;
+                                    case "3":
+                                        month = "Mar";
+                                        break;
+                                    case "4":
+                                        month = "Apr";
+                                        break;
+                                    case "5":
+                                        month = "May";
+                                        break;
+                                    case "6":
+                                        month = "June";
+                                        break;
+                                    case "7":
+                                        month = "July";
+                                        break;
+                                    case "8":
+                                        month = "Aug";
+                                        break;
+                                    case "9":
+                                        month = "Sep";
+                                        break;
+                                    case "10":
+                                        month = "Oct";
+                                        break;
+                                    case "11":
+                                        month = "Nov";
+                                        break;
+                                    case "12":
+                                        month = "Dec";
+                                        break;
+                                    default:
+                                        month = "Jan";
+                                        break;
+                                }
+                                string yearMonthCode = da.GetYearMonthCode(year, month).ToString();*/
                 SNModel item = new SNModel();
-                for (int i = 1; i <= totalQuantity; i++)
+                int a=0;
+                try
                 {
-                    string sn = yearMonthCode + "-BY" + orderNumber.Trim() + i.ToString().PadLeft(4, '0') + "/" + totalQuantity;
+                    a = int.Parse(orderNumber);
+                }
+                catch (Exception e1)
+                {
+                    MessageBox.Show(e1.Message);
+                }
+
+                for (int i = 0; i < totalQuantity; i++)
+                {
+                    string sn = belongs + (a + i).ToString().PadLeft(7, '0');
                     item.Pro_Id = int.Parse(id);
                     item.SN = sn;
                     item.Status = "Not started";

@@ -79,3 +79,5 @@ D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.cs
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.csproj.CopyComplete
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.exe
 D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.pdb
+D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.csprojAssemblyReference.cache
+D:\Code\C#\Dana\PROTraveller\PROTraveller\PROTraveller\obj\Debug\PROTraveller.csproj.CoreCompileInputs.cache

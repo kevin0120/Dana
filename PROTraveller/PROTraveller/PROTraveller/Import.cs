@@ -62,8 +62,6 @@ namespace PROTraveller
 
             }
 
-
-
         }
 
         private void btnImport_Click(object sender, EventArgs e)
@@ -76,8 +74,8 @@ namespace PROTraveller
             {
                 string startDateValue = dr["Start date"].ToString();
                 string endDateValue = dr["End date"].ToString();
-                string startDate = DateTime.FromOADate(Convert.ToInt32(startDateValue)).ToString("d");
-                string endDate = DateTime.FromOADate(Convert.ToInt32(endDateValue)).ToString("d");
+                string startDate = DateTime.FromOADate(Convert.ToInt32(startDateValue)).ToString("yyyyMMdd");
+                string endDate = DateTime.FromOADate(Convert.ToInt32(endDateValue)).ToString("yyyyMMdd");
                 dr["Start date"] = startDate;
                 dr["End date"] = endDate;
             }
