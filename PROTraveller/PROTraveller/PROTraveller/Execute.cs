@@ -153,6 +153,8 @@ namespace PROTraveller
                     item.OrderNumber = orderNumber;
                     item.Line = line1;
                     item.Description = desc;
+                    item.JobNumber = desc+ orderNumber;
+                    item.Reserved4 = totalQuantity;
 
                     da.InsertSN(item);
                 }
