@@ -18,5 +18,6 @@ namespace PROTraveller
         public string Description;
         public string JobNumber;
         public int Reserved4;
+        public string Reserved3;
     }
 }

@@ -155,7 +155,7 @@ namespace PROTraveller
                     item.Description = desc;
                     item.JobNumber = desc+ orderNumber;
                     item.Reserved4 = totalQuantity;
-
+                    item.Reserved3 = (i+1).ToString()+"/"+totalQuantity.ToString();
                     da.InsertSN(item);
                 }
                 string line = comboBoxLine.Text;
